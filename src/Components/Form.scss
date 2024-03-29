@@ -1,0 +1,58 @@
+// Form.scss
+
+.contact {
+    max-width: 400px;
+    margin: 0 auto;
+  
+    h2 {
+      text-align: center;
+      margin: 32px 0;
+    }
+  
+    .form-group {
+      margin-bottom: 15px;
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid var(--ivory-hover);
+        border-radius: 5px;
+      }
+    }
+  
+    .error {
+      color: var(--dark);
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    .success {
+      color: var(--ivory-hover);
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: var(--light-blue);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: var(--light-blue-hover);
+      }
+    }
+  }
+  
